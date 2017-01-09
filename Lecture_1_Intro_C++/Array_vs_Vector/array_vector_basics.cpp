@@ -10,7 +10,7 @@ int main() {
 	int int_arr[10] = {0,1,2,3,4,5,6,7,8,9};
 
 	// Print the array.
-	// Note that we hardcord the length of the array in the for loop.
+	// Note that we hardcoded the length of the array in the for loop.
 	// There are ways to get the size, but they are not easy, nor 
 	// compatible for all types.
 	// THIS IS OLD STYLE!
@@ -20,7 +20,7 @@ int main() {
 	}
 	std::cout << std::endl << std::endl;
 
-	// Print the array values, and the addresses assoicated with each.
+	// Print the array values, and the addresses associated with each.
 	// C++11 has range based for loops
 	std::cout << "Size of integer (bytes): " << sizeof(int) << std::endl;
 	std::cout << "int_arr values and addresses: " << std::endl;
