@@ -11,8 +11,8 @@ javac Coord.java
 java Coord
 
 ### Expected Output:
-10.0, 4.2
-4.2, 10.0
+10.0, 4.2  
+4.2, 10.0  
 
 ## Converting the Code:
 
@@ -68,5 +68,5 @@ g++ Coord.cpp coord.c -o Coord
 ./Coord
 
 ### Expected Output:
-10.0, 4.2
-4.2, 10.0
+10.0, 4.2  
+4.2, 10.0  
